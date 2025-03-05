@@ -1,0 +1,10 @@
+name: myenv
+channels:
+  - defaults
+dependencies:
+  - python=3.9
+  - cpuonly
+  - pytorch
+  - transformers
+  - zstandard
+prefix: /opt/anaconda3/envs/myenv
