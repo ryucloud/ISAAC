@@ -7,4 +7,8 @@ dependencies:
   - pytorch
   - transformers
   - zstandard
+  - pip:
+    - fasttext
+    - pyahocorasick
+  
 prefix: /opt/anaconda3/envs/myenv
